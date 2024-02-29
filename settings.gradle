@@ -1,0 +1,5 @@
+rootProject.name = 'java-modules-test'
+include 'util'
+include 'service'
+include 'app'
+

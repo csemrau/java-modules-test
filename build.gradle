@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'cf.cplace.javamodulestest'
+version = '1.0-SNAPSHOT'
+
+allprojects { sub ->
+    repositories {
+        mavenCentral()
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
