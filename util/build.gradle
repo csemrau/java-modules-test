@@ -3,8 +3,9 @@ plugins {
 }
 
 dependencies {
-    implementation 'com.google.guava:guava:33.0.0-jre'
+//    implementation 'com.google.guava:guava:33.0.0-jre'
     implementation 'com.google.code.gson:gson:2.10.1'
+    api 'jakarta.annotation:jakarta.annotation-api:2.1.1'
 
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.hamcrest:hamcrest:2.2'
